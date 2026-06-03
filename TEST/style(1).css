@@ -1,0 +1,93 @@
+:root {
+  --accent-violet: #A35CD3;
+  --text-color: #000000;
+  --bg-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+/* HEADER */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 3px solid var(--accent-violet);
+  background: var(--bg-color);
+}
+
+.main-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-item.active {
+  color: var(--accent-violet);
+}
+
+.search-bar input {
+  padding: 6px 12px;
+  border: 2px solid var(--accent-violet);
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 220px;
+}
+
+.logo-right img {
+  height: 45px;
+}
+
+/* MAIN CONTENT */
+.content {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  text-align: center;
+  width: 300px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  border: none;
+  object-fit: cover;
+}
+
+/* Description box inside image */
+.desc-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(163, 92, 211, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 1rem;
+}

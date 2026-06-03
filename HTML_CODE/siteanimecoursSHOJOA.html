@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shojo — Anime</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS_CODE/shojostyle.css" />
+</head>
+<body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="siteanimecoursSHOJOA.html" class="nav-link">ANIME</a></li>
+        <li><a href="manga.html" class="nav-link">MANGA</a></li>
+        <li><a href="musique.html" class="nav-link">MUSIQUE</a></li>
+        <li><a href="aleatoire.html" class="nav-link">ALEATOIRE</a></li>
+      </ul>
+
+      <!-- ===== SEARCH BAR ANIMÉE ===== -->
+      <div class="search">
+        <input type="text" id="searchInput" placeholder=" ">
+        <div>
+          <svg>
+            <use xlink:href="#path"></use>
+          </svg>
+        </div>
+      </div>
+    </nav>
+
+<!-- ===== SVG ANIMATION ===== -->
+<a href="https://www.kana.fr/" target="_blank" rel="noopener noreferrer">
+  <button class="learn-more">Boutique</button>
+</a>
+
+    <!-- SVG symbol pour l'animation -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" id="path">
+        <path d="M32.9418651,-20.6880772 C37.9418651,-20.6880772 40.9418651,-16.6880772 40.9418651,-12.6880772 C40.9418651,-8.68807717 37.9418651,-4.68807717 32.9418651,-4.68807717 C27.9418651,-4.68807717 24.9418651,-8.68807717 24.9418651,-12.6880772 C24.9418651,-16.6880772 27.9418651,-20.6880772 32.9418651,-20.6880772 L32.9418651,-29.870624 C32.9418651,-30.3676803 33.3448089,-30.770624 33.8418651,-30.770624 C34.08056,-30.770624 34.3094785,-30.6758029 34.4782612,-30.5070201 L141.371843,76.386562" transform="translate(83.156854, 22.171573) rotate(-225.000000) translate(-83.156854, -22.171573)"></path>
+      </symbol>
+    </svg>
+
+    <!-- Carré noir derrière le header -->
+    <div class="black-square"></div>
+  </header>
+
+  <!-- ===== LOGO ===== -->
+  <div class="logos">
+    <img src="ASSET/IMG/LOGO_SITE.png"alt="Logo Anim" class="logo-anim" />
+  </div>
+
+  <!-- ===== CONTENU ===== -->
+  <main class="content">
+    <section class="cards-wrap">
+      <div class="card" data-title="Ao Haru Ride">
+        <img class="poster" src="https://m.media-amazon.com/images/M/MV5BMzNmNjQ3OTEtMjIzOS00ZDg2LWEwMTYtMzk1ZWEzNGFiMzVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Ao Haru Ride">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>Ao Haru Ride</h3>
+          <p>Ao Haru Ride : Une romance lycéenne entre Futaba et son premier amour, Kou, qui ont changé depuis leur enfance et tentent de se redécouvrir.</p>
+        </div>
+      </div>
+
+      <div class="card" data-title="A Silent Voice">
+        <img class="poster" src="https://m.media-amazon.com/images/I/719QuSqLbQL.jpg" alt="A Silent Voice">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>A Silent Voice</h3>
+          <p>A Silent Voice (Koe no Katachi) : Un ancien harceleur cherche à se racheter auprès d'une camarade sourde qu'il a blessée dans le passé.</p>
+        </div>
+      </div>
+
+      <div class="card" data-title="Orange">
+        <img class="poster" src="https://www.akata.fr/sites/default/files/actus/japon/orange-anime-key-visual.jpg" alt="Orange">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>Orange</h3>
+          <p>Orange : Une lycéenne reçoit une lettre de son futur moi l'exhortant à empêcher un nouvel élève, Kakeru, de commettre une tragédie.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== SECTION NOUVEAUTÉ ===== -->
+  <section class="nouveautes-section">
+    <div class="nouveautes-header">
+      <h2 class="nouveautes-title">Nouveauté</h2>
+    </div>
+    <div class="nouveautes-container" id="nouveautesContainer">
+      <!-- Les animés de romance seront chargés ici via JavaScript -->
+      <div class="loading">Chargement des nouveautés...</div>
+    </div>
+  </section>
+
+  <!-- ===== SECTION RECOMMANDÉS ===== -->
+  <section class="recommandes-section">
+    <div class="recommandes-header">
+      <h2 class="recommandes-title">Aléatoire</h2>
+    </div>
+
+    <!-- Lignes de recommandés -->
+    <div class="recommandes-ligne" id="ligne1">
+      <div class="loading">Chargement...</div>
+    </div>
+    <div class="recommandes-ligne" id="ligne2">
+      <div class="loading">Chargement...</div>
+    </div>
+    <div class="recommandes-ligne" id="ligne3">
+      <div class="loading">Chargement...</div>
+    </div>
+    <div class="recommandes-ligne" id="ligne4">
+      <div class="loading">Chargement...</div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="manga.html">Manga</a></li>
+          <li><a href="musique.html">Musique</a></li>
+          <li><a href="aleatoire.html">Aléatoire</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Recherche</h3>
+        <p>Recherchez vos animés préférés et découvrez des informations détaillées sur chaque série.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Découverte</h3>
+        <p>Explorez les nouveautés et nos recommandations pour trouver votre prochain anime favori.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Anime Shojo. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script src="JS_CODE/shojoscript.js"></script>
+</body>
+</html>

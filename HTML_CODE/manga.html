@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shojo — Manga</title>
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS_CODE/shojostyle.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="siteanimecoursSHOJOA.html" class="nav-link">ANIME</a></li>
+        <li><a href="manga.html" class="nav-link active">MANGA</a></li>
+        <li><a href="musique.html" class="nav-link">MUSIQUE</a></li>
+        <li><a href="aleatoire.html" class="nav-link">ALÉATOIRE</a></li>
+      </ul>
+
+      <!-- SEARCH -->
+      <div class="search">
+        <input type="text" id="searchInput" placeholder=" ">
+        <div>
+          <svg>
+            <use xlink:href="#path"></use>
+          </svg>
+        </div>
+      </div>
+    </nav>
+
+<!-- ===== SVG ANIMATION ===== -->
+<a href="https://www.kana.fr/" target="_blank" rel="noopener noreferrer">
+  <button class="learn-more">Boutique</button>
+</a>
+
+    <!-- SVG animation -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" id="path">
+        <path d="M32.9418651,-20.6880772 C37.9418651,-20.6880772 40.9418651,-16.6880772 40.9418651,-12.6880772 C40.9418651,-8.68807717 37.9418651,-4.68807717 32.9418651,-4.68807717 C27.9418651,-4.68807717 24.9418651,-8.68807717 24.9418651,-12.6880772 C24.9418651,-16.6880772 27.9418651,-20.6880772 32.9418651,-20.6880772 L32.9418651,-29.870624 C32.9418651,-30.3676803 33.3448089,-30.770624 33.8418651,-30.770624 C34.08056,-30.770624 34.3094785,-30.6758029 34.4782612,-30.5070201 L141.371843,76.386562" transform="translate(83.156854, 22.171573) rotate(-225.000000) translate(-83.156854, -22.171573)"></path>
+      </symbol>
+    </svg>
+
+    <div class="black-square"></div>
+  </header>
+
+  <!-- ===== LOGO ===== -->
+  <div class="logos">
+    <img src="ASSET/IMG/LOGO_MANGA.png" alt="Logo Manga" class="logo-manga">
+  </div>
+
+  <!-- ===== HERO MANGA ===== -->
+  <main class="content">
+    <section class="cards-wrap manga-hero">
+
+      <!-- CARD 1 -->
+      <div class="card manga-card">
+        <img class="poster" src="https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/57_9782373499759_1_75.jpg" alt="Manga">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>Bloom</h3>
+          <p>Un garçon et une fille issus de lycées opposés bravent les préjugés pour se rapprocher et faire naître un amour sincère.
+</p>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card manga-card">
+        <img class="poster" src="https://www.manga-news.com/public/images/series/A_sign_of_affection_1_akata.webp" alt="Manga">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>A Sign of Affection</h3>
+          <p>Une romance douce entre une étudiante sourde et un garçon passionné de voyages.</p>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card manga-card">
+        <img class="poster" src="https://cdn.cultura.com/cdn-cgi/image/width=830/media/pim/TITELIVE/74_9782505017196_1_75.jpg" alt="Manga">
+        <div class="card-label">SHOJO</div>
+        <div class="card-desc">
+          <h3>Blue Spring Ride</h3>
+          <p>Deux anciens amoureux se retrouvent au lycée après avoir beaucoup changé.</p>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+<!-- ===== SECTION recommandés ===== -->
+<section class="nouveautes-section">
+  <div class="nouveautes-header">
+    <h2 class="nouveautes-title">Recommandés</h2>
+  </div>
+
+  <div class="nouveautes-container">
+
+    <!-- CARD 1 -->
+    <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Bukiyou na Senpai"},
+        "coverImage":{"large":"https://static.fnac-static.com/multimedia/PE/Images/FR/NR/82/83/c2/12747650/1507-1/tsp20241002084335/Kaguya-sama-Love-is-War-T01.jpg","extraLarge":"https://static.fnac-static.com/multimedia/PE/Images/FR/NR/82/83/c2/12747650/1507-1/tsp20241002084335/Kaguya-sama-Love-is-War-T01.jpg"},
+        "description":"Kaguya-sama: Love Is War : Deux génies amoureux mais trop fiers transforment leur romance en une guerre psychologique hilarante pour forcer l’autre à avouer ses sentiments.",
+        "averageScore":66,
+        "genres":["Romance","Slice of Life"]
+      }'>
+      <img src="https://static.fnac-static.com/multimedia/PE/Images/FR/NR/82/83/c2/12747650/1507-1/tsp20241002084335/Kaguya-sama-Love-is-War-T01.jpg" class="nouveaute-poster" alt="Bukiyou na Senpai">
+      <div class="nouveaute-info">
+        <strong>kaguya love is war</strong><br>
+        <span>Score : 90/100</span>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Honey Lemon Soda"},
+        "coverImage":{"large":"https://media.hachette.fr/imgArticle/NOBINOBI/2024/9782373498479-001-X.jpeg?source=web","extraLarge":"https://media.hachette.fr/imgArticle/NOBINOBI/2024/9782373498479-001-X.jpeg?source=web"},
+        "description":"Honey Lemon Soda : Une lycéenne timide tente de se reconstruire et de s’ouvrir aux autres grâce à un garçon solaire qui illumine son quotidien.",
+        "averageScore":82,
+        "genres":["Romance","School"]
+      }'>
+      <img src="https://media.hachette.fr/imgArticle/NOBINOBI/2024/9782373498479-001-X.jpeg?source=web" class="nouveaute-poster">
+      <div class="nouveaute-info">
+        <strong>Honey Lemon Soda</strong><br>
+        <span>Score : 85/100</span>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+         <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Honey Lemon Soda"},
+        "coverImage":{"large":"https://www.manga-news.com/public/images/series/La_Belle_et_la_Racaille_chap.webp","extraLarge":"https://www.manga-news.com/public/images/series/La_Belle_et_la_Racaille_chap.webp"},
+        "description":"La Belle et la Racaille : Une lycéenne sérieuse se retrouve entraînée dans le quotidien mouvementé d’un voyou, entre affrontements, romance et différences de mondes.",
+        "averageScore":82,
+        "genres":["Romance","School"]
+      }'>
+      <img src="https://www.manga-news.com/public/images/series/La_Belle_et_la_Racaille_chap.webp" class="nouveaute-poster">
+      <div class="nouveaute-info">
+        <strong>la belle la racaille</strong><br>
+        <span>Score : 75/100</span>
+      </div>
+    </div>
+  
+        <!-- CARD 4 -->
+         <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Honey Lemon Soda"},
+        "coverImage":{"large":"https://www.akata.fr/sites/default/files/couvertures/toutes-les-raisons-1.jpg","extraLarge":"https://www.akata.fr/sites/default/files/couvertures/toutes-les-raisons-1.jpg"},
+        "description":"Toutes les raisons de s’aimer : Deux adolescents apprennent à se découvrir et à s’accepter à travers une relation sincère, faite de doutes, de douceur et de sentiments naissants.",
+        "averageScore":82,
+        "genres":["Romance","School"]
+      }'>
+      <img src="https://www.akata.fr/sites/default/files/couvertures/toutes-les-raisons-1.jpg" class="nouveaute-poster">
+      <div class="nouveaute-info">
+        <strong>toutes les raisons de s'aimer</strong><br>
+        <span>Score : 80/100</span>
+      </div>
+    </div>
+
+        <!-- CARD 5 -->
+         <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Honey Lemon Soda"},
+        "coverImage":{"large":"https://static.fnac-static.com/multimedia/PE/Images/FR/NR/93/c0/0a/17481875/1507-1/tsp20250614080209/She-Wasn-t-a-Guy-T01.jpg","extraLarge":"https://static.fnac-static.com/multimedia/PE/Images/FR/NR/93/c0/0a/17481875/1507-1/tsp20250614080209/She-Wasn-t-a-Guy-T01.jpg"},
+        "description":"She Wasn’t a Guy : Une lycéenne tombe amoureuse d’une personne qu’elle pensait être un garçon, déclenchant une histoire tendre et pleine de questionnements sur l’identité et les sentiments.",
+        "averageScore":82,
+        "genres":["Romance","School"]
+      }'>
+      <img src="https://static.fnac-static.com/multimedia/PE/Images/FR/NR/93/c0/0a/17481875/1507-1/tsp20250614080209/She-Wasn-t-a-Guy-T01.jpg" class="nouveaute-poster">
+      <div class="nouveaute-info">
+        <strong>she wasn't a guy</strong><br>
+        <span>Score : 82/100</span>
+      </div>
+    </div>
+
+        <!-- CARD 6 -->
+         <div class="nouveaute-card nouveaute-click"
+      data-anime='{
+        "title":{"romaji":"Honey Lemon Soda"},
+        "coverImage":{"large":"https://www.manga-news.com/public/images/vols/.Stand_Up_-_Tome_1_-_Akata_medium.jpg","extraLarge":"https://www.manga-news.com/public/images/vols/.Stand_Up_-_Tome_1_-_Akata_medium.jpg"},
+        "description":"Stand Up! : Une lycéenne réservée apprend à prendre confiance en elle grâce à une relation amoureuse qui la pousse à s’affirmer et à faire face à ses peurs.",
+        "averageScore":82,
+        "genres":["Romance","School"]
+      }'>
+      <img src="https://www.manga-news.com/public/images/vols/.Stand_Up_-_Tome_1_-_Akata_medium.jpg" class="nouveaute-poster">
+      <div class="nouveaute-info">
+        <strong>stand up</strong><br>
+        <span>Score : 78/100</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-content">
+
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="siteanimecoursSHOJOA.html">Anime</a></li>
+          <li><a href="musique.html">Musique</a></li>
+          <li><a href="aleatoire.html">Aléatoire</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Manga</h3>
+        <p>Découvrez les derniers mangas shojo, romances et drames grâce à l’API Jikan.</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Découverte</h3>
+        <p>Nouveautés, tendances et recommandations personnalisées.</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Shojo Manga — Tous droits réservés</p>
+    </div>
+  </footer>
+  <!-- ===== SCRIPT ===== -->
+  <script src="JS_CODE/shojoscript.js"></script>
+</body>
+</html>
