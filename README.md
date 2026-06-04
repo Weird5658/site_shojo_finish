@@ -9,8 +9,8 @@ Projet site_shojo.
 
 ## Auteur
 
-- Weird5658
-
+- Jimmy Rondin
+  
 ## Statut
 
 - Dépôt GitHub privé
